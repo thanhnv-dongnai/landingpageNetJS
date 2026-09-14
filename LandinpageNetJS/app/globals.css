@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --night:#090A14; --card:#13141F; --orange:#DF6B33; --cobalt:#12365a; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; background:var(--night); color:#f8f4ee; font-family:'Be Vietnam Pro',Arial,sans-serif; }
+@layer utilities { .section-space { @apply py-12 md:py-20; } .container-page { @apply mx-auto w-full max-w-7xl px-5 lg:px-8; } }
